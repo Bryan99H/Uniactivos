@@ -10,8 +10,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-    fun siguiente(view: View){
-        val sig=  Intent(this, PasswordRecovery::class.java)
-        startActivity(sig)
-    }
+
 }
